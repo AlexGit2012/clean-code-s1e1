@@ -77,7 +77,7 @@ var addTask=function(){
 
 var editTask=function(){
   console.log("Edit Task...");
-  console.log("Change "edit" to "save"");
+  console.log("Change 'edit' to 'save'");
 
 
   var listItem=this.parentNode;
@@ -188,7 +188,7 @@ for (var i=0; i<completedTasksHolder.children.length;i++){
 
 
 
-// Issues with usability don"t get seen until they are in front of a human tester.
+// Issues with usability don't get seen until they are in front of a human tester.
 
 //prevent creation of empty tasks.
 
