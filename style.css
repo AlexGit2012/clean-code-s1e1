@@ -150,7 +150,7 @@ input, button { /* Reset outline style for input and button */
 
 /* Completed */
 #completed-tasks .task-list-label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
