@@ -20,7 +20,7 @@ var createNewTaskElement=function(taskString){
   var listItem=document.createElement("li");
 
   //input (checkbox)
-  var checkBox=document.createElement("input");//checkbx
+  var checkBox=document.createElement("input");//checkbox
   //label
   var label=document.createElement("label");//label
   //input (text)
@@ -54,6 +54,17 @@ var createNewTaskElement=function(taskString){
   listItem.appendChild(editInput);
   listItem.appendChild(editButton);
   listItem.appendChild(deleteButton);
+
+  //Add classes to elements
+  editButton.classList.add("button-item");
+  deleteButton.classList.add("button-item");
+  listItem.classList.add("task-list-item");
+  editInput.classList.add("input-text");
+  checkBox.classList.add("task-list-checkbox");
+  label.classList.add("task-list-label");
+  deleteButtonImg.classList.add("delete-task-image");
+
+
   return listItem;
 }
 
